@@ -4,7 +4,7 @@
   "description": "spot4zik is a platform for musicians. spot4zik-ui is the repository for the web UI.",
   "main": "./src/index.html",
   "scripts": {
-    "test": "lite-server"
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
