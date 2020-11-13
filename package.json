@@ -1,0 +1,22 @@
+{
+  "name": "spot4zik-ui",
+  "version": "1.0.0",
+  "description": "spot4zik is a platform for musicians. spot4zik-ui is the repository for the web UI.",
+  "main": "./src/index.html",
+  "scripts": {
+    "test": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legrosmanu/spot4zik-ui.git"
+  },
+  "author": "Emmanuel Legros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legrosmanu/spot4zik-ui/issues"
+  },
+  "homepage": "https://github.com/legrosmanu/spot4zik-ui#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
