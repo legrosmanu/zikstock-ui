@@ -1,21 +1,21 @@
 {
-  "name": "spot4zik-ui",
+  "name": "zikstock-ui",
   "version": "1.0.0",
-  "description": "spot4zik is a platform for musicians. spot4zik-ui is the repository for the web UI.",
+  "description": "zikstock is a platform for musicians. zikstock-ui is the repository dedicated to the web UI.",
   "main": "./src/index.html",
   "scripts": {
     "dev": "lite-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/legrosmanu/spot4zik-ui.git"
+    "url": "git+https://github.com/legrosmanu/zikstock-ui.git"
   },
   "author": "Emmanuel Legros",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/legrosmanu/spot4zik-ui/issues"
+    "url": "https://github.com/legrosmanu/zikstock-ui/issues"
   },
-  "homepage": "https://github.com/legrosmanu/spot4zik-ui#readme",
+  "homepage": "https://github.com/legrosmanu/zikstock-ui#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
