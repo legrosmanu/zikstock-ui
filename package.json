@@ -4,7 +4,9 @@
   "description": "zikstock is a platform for musicians. zikstock-ui is the repository dedicated to the web UI.",
   "main": "./src/index.html",
   "scripts": {
-    "dev": "lite-server"
+    "dev": "npm run copy-js-dep && npm run copy-css-dep && lite-server",
+    "copy-js-dep": "copyfiles -f ./node_modules/jquery/dist/jquery.slim.min.js ./node_modules/bootstrap/dist/js/bootstrap.min.js ./node_modules/bootstrap/dist/js/bootstrap.min.js.map ./src/dep/js",
+    "copy-css-dep": "copyfiles -f ./node_modules/bootstrap/dist/css/bootstrap.min.css ./node_modules/bootstrap/dist/css/bootstrap.min.css.map ./src/dep/css"
   },
   "repository": {
     "type": "git",
